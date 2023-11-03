@@ -1,0 +1,9 @@
+# ESP32C3 devkitm board configuration
+
+# Copyright (c) 2021 Espressif Systems (Shanghai) Co., Ltd.
+# SPDX-License-Identifier: Apache-2.0
+
+config BOARD_DAT_SENSOR_V8
+	bool "Dat sensor V8"
+	depends on SOC_SERIES_ESP32C3
+

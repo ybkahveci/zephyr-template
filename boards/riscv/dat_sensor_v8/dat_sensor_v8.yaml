@@ -1,0 +1,22 @@
+identifier: dat_sensor_v8
+name: Dat Sensor V8
+type: mcu
+arch: riscv32
+toolchain:
+  - zephyr
+supported:
+  - adc
+  - gpio
+  - i2c
+  - watchdog
+  - uart
+  - dma
+  - pwm
+  - spi
+  - counter
+  - entropy
+testing:
+  ignore_tags:
+    - net
+    - bluetooth
+vendor: espressif
